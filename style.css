@@ -37,18 +37,24 @@ body{
 .written h1{
     font-size:35px ;
 }
-span, .{
+.angcor-1{
+    text-decoration: none;
+    padding-top: 2px;
+}
+.button-last-1, .angcor-1, #last-icon-1{
     color:white;
-    background-color: #E02C6D;
-    text-decoration:none ;
-    border:1px solid palevioletred;
-    border-radius:30px;
-    padding:10px 24px 10px 24px;
-    width:24px;
-    height:24px;
-    margin-left:0px;
-    border-left: 10px;
-    
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left:12px;
+    font-weight: bold;
+    padding-right: 2px;
+}
+.button-last-1{
+    background-color: #E02C6DDE;
+    border:1px solid #E02C6DDE;
+    border-radius: 30px;
+    width:180px;
+    height:30px;   
 }
  .picture{
     width:440px;
@@ -89,10 +95,7 @@ span, .{
      width:290px;
      height:500px;
      box-shadow: 5px 5px 5px 5px gray;
-    
-
  }
-
     .banner img{
         width:250px; 
         height:250px;
@@ -105,8 +108,12 @@ span, .{
     .ratting-info{
         display:flex;
         align-items: center;
-        font-size: 10px;
-       
+        font-size: 8px;
+        padding-right:0px;
+        margin-right: 50px;
+    }
+    .ratt, .fa-star.filled{
+        padding-right: 2px;
     }
    .collection-pro{
        font-size: 12px;
@@ -115,6 +122,7 @@ span, .{
   
     .fa-star.filled{
         color:#FFC014;
+
      
     }
     .fa-star.empty{
@@ -126,10 +134,92 @@ span, .{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
         grid-column-gap:10px ;
-        grid-row-gap:47px ;
-       
-        padding-left: 150px;
-        padding-right: 150px;
+        grid-row-gap:47px ; 
+        padding-left: 160px;
+        padding-right: 130px;
         padding-top: 50px;
      
     }
+    /* blogs style end */
+    .corner-icon{
+        padding-left: 1070px;
+        padding-top: 20px;
+        font-weight:bold;
+    }
+    .corner-icon a{
+        text-decoration: none;
+        color:#E02C6DDE;
+    }
+    .corner-icon #arrow{
+        color:#E02C6DDE;
+    }
+    /* corner icon end */
+    /* last pic styles */
+    .last-pic img{
+        width:404px;
+        height:270px;
+        border:1px solid #6E4420;
+        border-radius:10px ;
+        margin-left:150px;
+    }
+    /* last blogs styles */
+    .last-section{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        padding-right: 150px;
+
+    }
+    .last-blog{
+        padding-left:120px ;
+    }
+    .angcor{
+        text-decoration: none;
+        padding-top: 2px;
+    }
+    .button-last, .angcor, #last-icon{
+        color:white;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        padding-left:4px;
+        font-weight: bold;
+        padding-right: 2px;
+    }
+    .button-last{
+        background-color: #E02C6DDE;
+       border:1px solid #E02C6DDE;
+       width:110px;
+       height:30px;   
+    }
+    /* footer styls */
+    .footer-section{
+        border:1px solid #0A0826;
+        background-color:#0A0826;
+        color:white;
+        display:flex;
+        justify-content: center;
+        padding-top:5px;
+        margin-top:70px;
+
+
+    }
+    .footer-info p{
+        font-size:10px ;
+        margin-bottom:0px;
+    }
+    .footer-info h4{
+        padding-left: 10px;
+        margin-bottom: 0px;
+    }
+    #para{
+        padding-left: 50px;
+    }
+    .fab{
+        color:white; 
+        padding-top: 3px;
+        
+    }
+    #icon-last{
+        padding-left: 30px;
+    }
+    /* footer styles end */
