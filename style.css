@@ -31,13 +31,13 @@ body{
     padding-left: 150px;
 }
 .written{
-    padding-top: 150px;
+    padding-top: 80px;
     padding-right: 150px;
 }
 .written h1{
     font-size:35px ;
 }
-.written a,.fa-arrow-right{
+span, .{
     color:white;
     background-color: #E02C6D;
     text-decoration:none ;
@@ -46,14 +46,90 @@ body{
     padding:10px 24px 10px 24px;
     width:24px;
     height:24px;
+    margin-left:0px;
+    border-left: 10px;
     
 }
-
  .picture{
     width:440px;
     height:414px;
     padding-right: 150px;
     padding-left:20px;
     padding-top:50px;
+ }
+ /* hr row styles */
+ hr{
+    width:700px;
+    padding-left: 165px;
+    padding-right:165px;
+    margin-top:150px;
+ }
+ /* logo styles */
+ .logo{
+    padding-left:220px;
+    padding-right: 220px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #top-size{
+     margin-top:10px
+ }
+ /* populer collection styles */
+ .second-part-head{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+ }
+ /* bannar styles */
+ .collection{
+     border:1px solid white;
+     border-radius: 10px;
+     width:290px;
+     height:500px;
+     box-shadow: 5px 5px 5px 5px gray;
+    
 
  }
+
+    .banner img{
+        width:250px; 
+        height:250px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .banner-info{
+        padding-left: 20px;
+    }
+    .ratting-info{
+        display:flex;
+        align-items: center;
+        font-size: 10px;
+       
+    }
+   .collection-pro{
+       font-size: 12px;
+       margin: 0% auto;
+   }
+  
+    .fa-star.filled{
+        color:#FFC014;
+     
+    }
+    .fa-star.empty{
+        color:#AEAEAE;
+    }
+    /* blogs styles */
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-column-gap:10px ;
+        grid-row-gap:47px ;
+       
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 50px;
+     
+    }
